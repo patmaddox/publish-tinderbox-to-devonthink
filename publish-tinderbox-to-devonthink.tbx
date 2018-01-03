@@ -1,0 +1,1603 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tinderbox version="2" revision="12" savedBy="7.3.0" >
+<attrib Name="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="System" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Agent" parent="System" editable="0" visibleInEditor="1" type="4" default="false" >
+<attrib Name="AgentAction" parent="Agent" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="AgentCaseSensitive" parent="Agent" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="AgentPriority" parent="Agent" editable="1" visibleInEditor="1" type="2" canInherit="0" default="1" >
+</attrib>
+<attrib Name="AgentQuery" parent="Agent" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Appearance" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AccentColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="dark warm gray dark" >
+</attrib>
+<attrib Name="Badge" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="BadgeMonochrome" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="BadgeSize" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Border" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="2" >
+</attrib>
+<attrib Name="BorderBevel" parent="Appearance" editable="1" visibleInEditor="1" default="automatic" >
+</attrib>
+<attrib Name="BorderColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="BorderDash" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="CaptionAlignment" parent="Appearance" editable="1" visibleInEditor="1" default="left" >
+</attrib>
+<attrib Name="CaptionColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="blue" >
+</attrib>
+<attrib Name="CaptionFont" parent="Appearance" editable="1" visibleInEditor="1" type="11" default="SketchnoteSquare" >
+</attrib>
+<attrib Name="CaptionOpacity" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="CaptionSize" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Color" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="warm gray dark" >
+</attrib>
+<attrib Name="Opacity" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Pattern" parent="Appearance" editable="1" visibleInEditor="1" default="plain" >
+</attrib>
+<attrib Name="PlotColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="light green" >
+</attrib>
+<attrib Name="Shadow" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="ShadowBlur" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="10" >
+</attrib>
+<attrib Name="ShadowColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="ShadowDistance" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="5" >
+</attrib>
+<attrib Name="Shape" parent="Appearance" editable="1" visibleInEditor="1" suggested="normal;rectangle;oval;diamond;tag;vertical tag;bubble;hex;lozenge;cloud;leaf;banner;arrow" default="" >
+</attrib>
+</attrib>
+<attrib Name="Composites" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Associates" parent="Composites" editable="0" visibleInEditor="1" type="8" canInherit="0" default="" >
+</attrib>
+<attrib Name="IsComposite" parent="Composites" editable="0" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="IsMultiple" parent="Composites" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="NeverComposite" parent="Composites" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="OnJoin" parent="Composites" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="Role" parent="Composites" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Events" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="DueDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="EndDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="StartDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="TimelineAliases" parent="Events" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="TimelineBand" parent="Events" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="TimelineBandLabelColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="TimelineBandLabelOpacity" parent="Events" editable="1" visibleInEditor="1" type="2" default="25" >
+</attrib>
+<attrib Name="TimelineBandLabels" parent="Events" editable="1" visibleInEditor="1" type="10" default="" >
+</attrib>
+<attrib Name="TimelineColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="lighter warm gray" >
+</attrib>
+<attrib Name="TimelineDescendants" parent="Events" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="TimelineEnd" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="TimelineEndAttribute" parent="Events" editable="1" visibleInEditor="1" default="EndDate" >
+</attrib>
+<attrib Name="TimelineGridColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="#009090" >
+</attrib>
+<attrib Name="TimelineMarker" parent="Events" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="TimelineScaleColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="cool gray" >
+</attrib>
+<attrib Name="TimelineScaleColor2" parent="Events" editable="1" visibleInEditor="1" type="1" default="" >
+</attrib>
+<attrib Name="TimelineStart" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="TimelineStartAttribute" parent="Events" editable="1" visibleInEditor="1" default="StartDate" >
+</attrib>
+</attrib>
+<attrib Name="General" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AdornmentCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Caption" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Checked" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="ChildCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="CleanupAction" parent="General" editable="1" visibleInEditor="1" default="grid" >
+</attrib>
+<attrib Name="Container" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Created" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" kind="1" canInherit="0" default="Pat Maddox" >
+</attrib>
+<attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="DisplayExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="DisplayExpressionDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="DisplayName" parent="General" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Edict" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="EdictDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="File" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
+</attrib>
+<attrib Name="HoverExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="HoverImage" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
+</attrib>
+<attrib Name="HoverOpacity" parent="General" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="ID" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="InboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="IsAdornment" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsAlias" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsPrototype" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="Modified" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Name" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="untitled" >
+</attrib>
+<attrib Name="OnAdd" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="OnRemove" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="OutboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="OutlineDepth" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="OutlineOrder" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Path" parent="General" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PlainLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Private" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Prototype" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="" >
+</attrib>
+<attrib Name="PrototypeBequeathsChildren" parent="General" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="ReadCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Rule" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="RuleDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="Searchable" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="true" >
+</attrib>
+<attrib Name="SelectionCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="SiblingOrder" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Subtitle" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="TextLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="WebLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Grid" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="GridColor" parent="Grid" editable="1" visibleInEditor="1" type="1" default="#ffffff" >
+</attrib>
+<attrib Name="GridColumns" parent="Grid" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="GridLabelFont" parent="Grid" editable="1" visibleInEditor="1" type="11" default="IdealSansSSm-Book" >
+</attrib>
+<attrib Name="GridLabelSize" parent="Grid" editable="1" visibleInEditor="1" type="2" default="10" >
+</attrib>
+<attrib Name="GridLabels" parent="Grid" editable="1" visibleInEditor="1" type="10" default="" >
+</attrib>
+<attrib Name="GridOpacity" parent="Grid" editable="1" visibleInEditor="1" type="2" default="75" >
+</attrib>
+<attrib Name="GridRows" parent="Grid" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="HTML" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="HTMLBoldEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/b&gt;" >
+</attrib>
+<attrib Name="HTMLBoldStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;b&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 0.75em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud2End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud2Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud3End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud3Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1.4em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud4End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud4Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud5End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud5Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2.8em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLEntities" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLExportAfter" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportBefore" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportChildren" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLExportCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportExtension" parent="HTML" editable="1" visibleInEditor="1" kind="9" default=".html" >
+</attrib>
+<attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportFileNameSpacer" parent="HTML" editable="1" visibleInEditor="1" default="_" >
+</attrib>
+<attrib Name="HTMLExportPath" parent="HTML" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" default="/Templates/HTML page" >
+</attrib>
+<attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLFileNameMaxLength" parent="HTML" editable="1" visibleInEditor="1" type="2" default="24" >
+</attrib>
+<attrib Name="HTMLFirstParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLFirstParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLFont" parent="HTML" editable="1" visibleInEditor="1" type="11" default="Andale Mono" >
+</attrib>
+<attrib Name="HTMLFontSize" parent="HTML" editable="1" visibleInEditor="1" type="2" default="13" >
+</attrib>
+<attrib Name="HTMLImageEnd" parent="HTML" editable="1" visibleInEditor="1" default="&gt;" >
+</attrib>
+<attrib Name="HTMLImageStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;img" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/blockquote&gt;" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;blockquote&gt;" >
+</attrib>
+<attrib Name="HTMLItalicEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/i&gt;" >
+</attrib>
+<attrib Name="HTMLItalicStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;i&gt;" >
+</attrib>
+<attrib Name="HTMLLinkExtension" parent="HTML" editable="1" visibleInEditor="1" default=".html" >
+</attrib>
+<attrib Name="HTMLListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ul&gt;" >
+</attrib>
+<attrib Name="HTMLListItemEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/li&gt;" >
+</attrib>
+<attrib Name="HTMLListItemStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;li&gt;" >
+</attrib>
+<attrib Name="HTMLListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ul&gt;" >
+</attrib>
+<attrib Name="HTMLMarkupText" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLOrderedListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ol&gt;" >
+</attrib>
+<attrib Name="HTMLOrderedListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ol&gt;" >
+</attrib>
+<attrib Name="HTMLOverwriteImages" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLPreviewCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLQuoteHTML" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLStrikeEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/strike&gt;" >
+</attrib>
+<attrib Name="HTMLStrikeStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;strike&gt;" >
+</attrib>
+<attrib Name="HTMLUnderlineEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/u&gt;" >
+</attrib>
+<attrib Name="HTMLUnderlineStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;u&gt;" >
+</attrib>
+<attrib Name="IsTemplate" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="Internal" parent="System" editable="0" visibleInEditor="0" default="" >
+<attrib Name="Alias" parent="Internal" editable="0" visibleInEditor="0" type="6" default="0" >
+</attrib>
+<attrib Name="EntryScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="100" canInherit="0" default="Rect[ 50 50 750 1150]" >
+</attrib>
+</attrib>
+<attrib Name="Iris" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="IrisAngle" parent="Iris" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="IrisRadius" parent="Iris" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+</attrib>
+<attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AdornmentFont" parent="Map" editable="1" visibleInEditor="1" type="11" default="RingsideCondensedSSm-Light" >
+</attrib>
+<attrib Name="Base" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="Bend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Direction" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Fill" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.75" >
+</attrib>
+<attrib Name="Height" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="1.86" >
+</attrib>
+<attrib Name="HoverFont" parent="Map" editable="1" visibleInEditor="1" type="11" default="RingsideCondensedSSm-Med" >
+</attrib>
+<attrib Name="InteriorScale" parent="Map" editable="1" visibleInEditor="1" kind="20" type="2" default="1.5" >
+</attrib>
+<attrib Name="LeafBase" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="LeafBend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="LeafDirection" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="LeafTip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="Lock" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="MapBackgroundAccentColor" parent="Map" editable="1" visibleInEditor="1" kind="24" type="1" default="#f2f2ed" >
+</attrib>
+<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" kind="3" type="1" default="#f2f2ed" >
+</attrib>
+<attrib Name="MapBackgroundColor2" parent="Map" editable="1" visibleInEditor="1" type="1" default="#f2f2ed" >
+</attrib>
+<attrib Name="MapBackgroundFill" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="MapBackgroundFillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.1" >
+</attrib>
+<attrib Name="MapBackgroundPattern" parent="Map" editable="1" visibleInEditor="1" kind="25" default="plain" >
+</attrib>
+<attrib Name="MapBackgroundShadow" parent="Map" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="MapBodyTextColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="MapBodyTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="MapScrollX" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="MapScrollY" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="MapTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="NameAlignment" parent="Map" editable="1" visibleInEditor="1" default="left" >
+</attrib>
+<attrib Name="NameBold" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="NameColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="NameFont" parent="Map" editable="1" visibleInEditor="1" kind="2" type="11" default="IdealSansSSm-Book" >
+</attrib>
+<attrib Name="NameLeading" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="NameStrike" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="PlotBackgroundColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="white" >
+</attrib>
+<attrib Name="PlotBackgroundOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="50" >
+</attrib>
+<attrib Name="PlotColorList" parent="Map" editable="1" visibleInEditor="1" type="10" default="2;7;3;8;4;9;0;5;1;6" >
+</attrib>
+<attrib Name="Sticky" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SubtitleColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="SubtitleOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="50" >
+</attrib>
+<attrib Name="SubtitleSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="75" >
+</attrib>
+<attrib Name="TableExpression" parent="Map" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="TableHeading" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Tip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="TitleHeight" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="TitleOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Width" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="3" >
+</attrib>
+<attrib Name="Xpos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Ypos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Net" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AutoFetch" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="AutoFetchCommand" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="LastFetched" parent="Net" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="NoteURL" parent="Net" editable="0" visibleInEditor="1" default="RSSItem" >
+</attrib>
+<attrib Name="RSSChannelTemplate" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="RSSItemLimit" parent="Net" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="RSSItemTemplate" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="RawData" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="URL" parent="Net" editable="1" visibleInEditor="1" type="9" default="" >
+</attrib>
+<attrib Name="ViewInBrowser" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="OutlineBackgroundColor" parent="Outline" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="OutlineTextSize" parent="Outline" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="PrototypeHighlightColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="#cceecc" >
+</attrib>
+<attrib Name="Separator" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="People" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AIM" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Address" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="City" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Country" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="District" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Email" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FormattedAddress" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FullName" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="GeocodedAddress" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Latitude" parent="People" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Longitude" parent="People" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Organization" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PostalCode" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="State" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Telephone" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Twitter" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="References" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Abstract" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="AccessDate" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ArticleTitle" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Author2" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Author3" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Author4" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Authors" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="BookTitle" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="CallNumber" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="DOI" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Edition" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ISBN" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Issue" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Journal" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Pages" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PublicationCity" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PublicationYear" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Publisher" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="RefFormat" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="RefKeywords" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="RefType" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ReferenceRIS" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ReferenceTitle" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ReferenceURL" parent="References" editable="1" visibleInEditor="1" type="9" default="" >
+</attrib>
+<attrib Name="SourceCreated" parent="References" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="SourceModified" parent="References" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="Tags" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="Volume" parent="References" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Sandbox" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="MyBoolean" parent="Sandbox" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="MyColor" parent="Sandbox" editable="1" visibleInEditor="1" type="1" default="" >
+</attrib>
+<attrib Name="MyDate" parent="Sandbox" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="MyInterval" parent="Sandbox" editable="1" visibleInEditor="1" type="12" default="00:00" >
+</attrib>
+<attrib Name="MyList" parent="Sandbox" editable="1" visibleInEditor="1" type="10" default="" >
+</attrib>
+<attrib Name="MyNumber" parent="Sandbox" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="MySet" parent="Sandbox" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="MyString" parent="Sandbox" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Scrivener" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ScrivenerCompileAsIs" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerFileExtension" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ScrivenerFreeformFlag" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerID" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ScrivenerIconFileName" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ScrivenerIgnoresTitlePrefixAndSuffix" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerIncludeInCompile" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerIndexCardFileExension" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ScrivenerKeywords" parent="Scrivener" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="ScrivenerLabel" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ScrivenerLabelID" parent="Scrivener" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="ScrivenerNote" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ScrivenerNoteRTF" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ScrivenerPageBreakBefore" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerPreferredExternalApplication" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ScrivenerShowSynopsisImage" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerStatus" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ScrivenerStatusID" parent="Scrivener" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="ScrivenerTemplateFolder" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
+</attrib>
+<attrib Name="ScrivenerType" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Sorting" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Sort" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlso" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlsoTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+<attrib Name="SortBackward" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortBackwardAlso" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+</attrib>
+<attrib Name="Storyspace" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="BeforeVisit" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="ChosenWord" parent="Storyspace" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Deck" parent="Storyspace" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="OnVisit" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="Requirements" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="ResetAction" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="Visits" parent="Storyspace" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="TextFormat" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="HideKeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="KeyAttributeDateFormat" parent="TextFormat" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="KeyAttributeFont" parent="TextFormat" editable="1" visibleInEditor="1" type="11" default="IdealSansSSm-Book" >
+</attrib>
+<attrib Name="KeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="LeftMargin" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="2" >
+</attrib>
+<attrib Name="LineSpacing" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="NoSpelling" parent="TextFormat" editable="1" visibleInEditor="1" kind="27" type="4" default="false" >
+</attrib>
+<attrib Name="ParagraphSpacing" parent="TextFormat" editable="1" visibleInEditor="1" kind="14" type="2" default="8" >
+</attrib>
+<attrib Name="RightMargin" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="2" >
+</attrib>
+<attrib Name="ShowTitle" parent="TextFormat" editable="1" visibleInEditor="1" kind="5" type="4" default="false" >
+</attrib>
+<attrib Name="SmartQuotes" parent="TextFormat" editable="1" visibleInEditor="1" kind="26" type="4" default="true" >
+</attrib>
+<attrib Name="Tabs" parent="TextFormat" editable="1" visibleInEditor="1" default="0.25;0.25;0.25;0.25;" >
+</attrib>
+<attrib Name="TextAlign" parent="TextFormat" editable="1" visibleInEditor="1" kind="22" default="left" >
+</attrib>
+<attrib Name="TextBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="8" type="1" default="#ffffff" >
+</attrib>
+<attrib Name="TextColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="7" type="1" default="#000000" >
+</attrib>
+<attrib Name="TextFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="18" type="11" default="MercurySSm-Book" >
+</attrib>
+<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" kind="19" type="2" default="16" >
+</attrib>
+<attrib Name="TextPaneRatio" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="TextPaneWidth" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="-1" >
+</attrib>
+<attrib Name="TextSidebar" parent="TextFormat" editable="1" visibleInEditor="1" kind="17" type="4" default="false" >
+</attrib>
+<attrib Name="TitleBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="12" type="1" default="#000000" >
+</attrib>
+<attrib Name="TitleFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="4" type="11" default="HelveticaNeue" >
+</attrib>
+<attrib Name="TitleForegroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="11" type="1" default="#ffffff" >
+</attrib>
+</attrib>
+<attrib Name="Textual" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ImageCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="ReadOnly" parent="Textual" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Text" parent="Textual" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" kind="10" default="outline" >
+</attrib>
+<attrib Name="TextLength" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="WordCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Wordcount" parent="Textual" editable="0" visibleInEditor="0" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Watch" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="DEVONthinkGroup" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="EvernoteNotebook" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="NotesFolder" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="NotesID" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="NotesModified" parent="Watch" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="SimplenoteKey" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SimplenoteModified" parent="Watch" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="SimplenoteSync" parent="Watch" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="SimplenoteTags" parent="Watch" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="SimplenoteVersion" parent="Watch" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="SourceURL" parent="Watch" editable="1" visibleInEditor="1" type="9" default="" >
+</attrib>
+<attrib Name="UUID" parent="Watch" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="WatchFolder" parent="Watch" editable="1" visibleInEditor="1" type="3" default="" >
+</attrib>
+</attrib>
+<attrib Name="Weblog" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="WeblogPostID" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_allow_comments" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_allow_pings" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_convert_breaks" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_keywords" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+</attrib>
+<attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<colors >
+<color name="0" color="#7a7978" hidden="0"  />
+<color name="1" color="#a19f9e" hidden="0"  />
+<color name="2" color="#b8b6b4" hidden="0"  />
+<color name="3" color="#c7c5c3" hidden="0"  />
+<color name="4" color="#d4d2d0" hidden="0"  />
+<color name="5" color="#dedcda" hidden="0"  />
+<color name="6" color="#e6e4e1" hidden="0"  />
+<color name="7" color="#eeebe9" hidden="0"  />
+<color name="8" color="#f4f2ef" hidden="0"  />
+<color name="9" color="#faf8f5" hidden="0"  />
+<color name="black" color="#000000" hidden="0"  />
+<color name="blue" color="#003366" hidden="0"  />
+<color name="bright blue" color="#0000ff" hidden="0"  />
+<color name="bright green" color="#00ff00" hidden="0"  />
+<color name="bright red" color="#ff0000" hidden="0"  />
+<color name="cool gray" color="#607080" hidden="0"  />
+<color name="cool gray dark" color="#505860" hidden="0"  />
+<color name="cyan" color="#006666" hidden="0"  />
+<color name="green" color="#009900" hidden="0"  />
+<color name="magenta" color="#660066" hidden="0"  />
+<color name="normal" color="#dc490b" hidden="0"  />
+<color name="orange" color="#ff8800" hidden="0"  />
+<color name="poppy" color="#ffcc66" hidden="0"  />
+<color name="red" color="#990000" hidden="0"  />
+<color name="violet" color="#330099" hidden="0"  />
+<color name="warm gray" color="#787060" hidden="0"  />
+<color name="warm gray dark" color="#605850" hidden="0"  />
+<color name="white" color="#ffffff" hidden="0"  />
+<color name="yellow" color="#cccc00" hidden="0"  />
+</colors>
+<menu name="Value" kind="stamps" >
+<stamp name="Publish to DEVONthink" >action($Text(&quot;/Stamps/Publish to DEVONthink&quot;))</stamp>
+</menu>
+<linkTypes >
+<linkType name="*untitled" label="" visible="1" showLabel="0" required="1" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="agree" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="clarify" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="disagree" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="example" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="exception" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="note" visible="1" showLabel="1" required="1" color="#666666" colorString="#666666" style="0" arrowType="0"  />
+<linkType name="note+" visible="1" showLabel="1" required="1" color="#444444" colorString="#444444" style="0" arrowType="0"  />
+<linkType name="prototype" visible="0" showLabel="1" required="1" color="#993333" colorString="#993333" style="0" arrowType="0"  />
+<linkType name="response" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+<linkType name="update" visible="1" showLabel="1" required="0" color="#000000" colorString="#000000" style="0" arrowType="0"  />
+</linkTypes>
+<item ID="1514917940" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T11:32:19-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="MapScrollX" >0</attribute>
+<attribute name="MapScrollY" >0</attribute>
+<attribute name="Modified" >2018-01-02T11:32:19-07:00</attribute>
+<attribute name="Name" >publish-tinderbox-to-devonthink</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1514917951" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T11:32:30-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="KeyAttributes" >URL;SourceURL</attribute>
+<attribute name="Modified" >2018-01-03T07:55:02-07:00</attribute>
+<attribute name="MyString" >&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=\&quot;content-type\&quot; content=\&quot;text/html; charset=utf-8\&quot;&gt;
+	&lt;title&gt;Publish to DEVONthink&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;Publish to DEVONthink&lt;/h1&gt;
+&lt;p&gt;&lt;b&gt;Warning: This is beta software!&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;It does the job fine for me, but is still a bit rough around the edges. If you don’t understand how it’s built, you might get confused. &lt;a href=\&quot;http://forum.eastgate.com/t/publish-from-tinderbox-to-devonthink/1123\&quot;&gt;Ask for help on the forum&lt;/a&gt; and I’ll do my best to help you out.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;I love taking notes with &lt;a href=\&quot;http://www.eastgate.com/Tinderbox/\&quot;&gt;Tinderbox&lt;/a&gt;, don’t you? It gives me a nice structured way of looking at information, and then I can export it to take it with me or share it with others.&lt;/p&gt;
+&lt;p&gt;Ever since &lt;a href=\&quot;http://www.devontechnologies.com/products/devonthink/devonthink-to-go.html\&quot;&gt;DEVONthink To Go&lt;/a&gt; was released, I’ve wanted to use it to take my Tinderbox notes with me. So I run &lt;code&gt;File-&gt;Export-&gt;as HTML&lt;/code&gt;, index the folder in &lt;a href=\&quot;http://www.devontechnologies.com/products/devonthink/overview.html\&quot;&gt;DEVONthink&lt;/a&gt;, and off I go, right? Not quite…&lt;/p&gt;
+&lt;p&gt;There’s one key problem that prevents me from effectively taking my Tinderbox notes on the road:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Indexed folders in DEVONthink kind of suck, unless that’s what you really want.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;You’ve got a giant &lt;a href=\&quot;http://www.sonnysoftware.com\&quot;&gt;Bookends&lt;/a&gt; library that you want to search with DEVONthink? Great, index the Bookends folder. Just don’t bother using DEVONthink’s &lt;i&gt;Copy item link&lt;/i&gt; feature. As soon as you move or rename a file on disk, the &lt;code&gt;x-devonthink-item://&lt;/code&gt; link breaks. And I love those links! You can add them to your task manager and calendar, and they &lt;i&gt;always&lt;/i&gt; take you to the record you want – &lt;i&gt;if&lt;/i&gt; it’s an imported record. So how do you make that work with Tinderbox?&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Take notes in Tinderbox. Publish to DEVONthink. Maintain the link.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Publishing from Tinderbox to DEVONthink is easy, with the code provided in this document. With it, you can:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt; press one button to publish a note from Tinderbox to DEVONthink&lt;/li&gt;
+&lt;li&gt; automatically link the Tinderbox note to the created DEVONthink record&lt;/li&gt;
+&lt;li&gt; update your DEVONthink records with the press of a button&lt;/li&gt;
+&lt;li&gt; file the record wherever you like in your DEVONthink database&lt;/li&gt;
+&lt;li&gt; use the &lt;code&gt;x-devonthink-item://&lt;/code&gt; link anywhere you want, confident that it will always work&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Two ways to publish&lt;/h2&gt;
+
+&lt;h3&gt;1. The quick-start method (just edit this document!)&lt;/h3&gt;
+&lt;p&gt;The quickest way to publish from Tinderbox to DEVONthink is to simply use this document. Add a note and run &lt;code&gt;Stamps-&gt;Publish to DEVONthink&lt;/code&gt;. If everything goes well, DEVONthink will have a new HTML record and your note will now have its &lt;code&gt;$SourceURL&lt;/code&gt; attribute set to the &lt;code&gt;x-devonthink-item://&lt;/code&gt; URL. Click it to open the record in DEVONthink.&lt;/p&gt;
+
+&lt;h3&gt;2. Publish from existing documents&lt;/h3&gt;
+&lt;p&gt;Already have a document with a bunch of notes in it? No problem. It’s a little bit more involved than the quick-start method, but it should still only take a few minutes. Here’s what you do:&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt; Make sure you have an &lt;a href=\&quot;http://acrobatfaq.com/atbref7/index/MiscUserInterfaceAspects/Built-inexportTemplates.html\&quot;&gt;HTML template&lt;/a&gt; defined (you can use &lt;code&gt;File-&gt;Built-In Templates-&gt;HTML&lt;/code&gt; if you don’t have any)&lt;/li&gt;
+&lt;li&gt; Add the &lt;code&gt;Code&lt;/code&gt; prototype: &lt;code&gt;File-&gt;Built-In Prototypes-&gt;Code&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt; Copy the &lt;code&gt;Stamps&lt;/code&gt; container into your document&lt;/li&gt;
+&lt;li&gt; Copy the &lt;code&gt;Applescripts&lt;/code&gt; container into your document&lt;/li&gt;
+&lt;li&gt; Create a stamp with the following action code: &lt;code&gt;action($Text(\&quot;/Stamps/Publish to DEVONthink\&quot;))&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;Run the stamp on your note!&lt;/p&gt;
+
+
+&lt;h2&gt;What gets published&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt; &lt;code&gt;$Name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;$URL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt; HTML representation of the note, as defined by &lt;code&gt;$HTMLExportTemplate&lt;/code&gt; property&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;If you make changes to your note, you can update the record in DEVONthink simply by publishing the note again.&lt;/p&gt;
+
+&lt;h2&gt;Links between notes become DEVONthink links&lt;/h2&gt;
+&lt;p&gt;One of my main goals with this project is to build a personal &lt;a href=\&quot;http://wiki.c2.com/?WelcomeVisitors\&quot;&gt;wiki&lt;/a&gt; with Tinderbox – and then take it with me wherever I go. To do that, the pages need to be able to link to one another… which is precisely what this document does.&lt;/p&gt;
+&lt;p&gt;Assuming that you have published your notes to DEVONthink, any links will automatically be converted to &lt;code&gt;x-devonthink-item://&lt;/code&gt; links.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;For this to work, you may need to publish your notes twice.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The first pass imports the note into DEVONthink. This sets &lt;code&gt;$SourceURL&lt;/code&gt; on the note. Before a note has a &lt;code&gt;$SourceURL&lt;/code&gt;, any incoming links will not work in DEVONthink. Here’s an example:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt; &lt;b&gt;Note A&lt;/b&gt; links to &lt;b&gt;Note B&lt;/b&gt;. Neither has been published to DEVONthink.&lt;/li&gt;
+&lt;li&gt; Publish &lt;b&gt;Note A&lt;/b&gt;. The link to &lt;b&gt;Note B&lt;/b&gt; will not be converted to a DEVONthink link, because &lt;b&gt;Note B&lt;/b&gt; has not been published and does not have a &lt;code&gt;$SourceURL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt; Publish &lt;b&gt;Note B&lt;/b&gt;. It now has a &lt;code&gt;$SourceURL&lt;/code&gt;. The published DEVONthink record for &lt;b&gt;Note A&lt;/b&gt; still has a broken link, because it was published before &lt;b&gt;Note B&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt; Publish &lt;b&gt;Note A&lt;/b&gt; again. It picks up the &lt;code&gt;$SourceURL&lt;/code&gt; from &lt;b&gt;Note B&lt;/b&gt;, and the published DEVONthink record has a working &lt;code&gt;x-devonthink-item://&lt;/code&gt; link&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;The simplest solution is to publish all your notes twice each time you add or link new notes.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;I hope to improve this functionality in the future to make it faster and more automatic.&lt;/p&gt;
+&lt;h3&gt;Possible issues&lt;/h3&gt;
+&lt;p&gt;There are probably some edge cases, and for now it’s best to only publish top-level notes with distinct names. But it’s working well for me so far…&lt;/p&gt;
+
+&lt;h3&gt;Implementation note&lt;/h3&gt;
+&lt;p&gt;To get this working quickly, and to minimize the number of steps required to make this work for existing documents, the &lt;code&gt;x-devonthink-item://&lt;/code&gt; linking functionality uses &lt;code&gt;$MyString&lt;/code&gt; as a temporary storage area. If you have agents that suddenly go out of whack, it may be because they’re relying on &lt;code&gt;$MyString&lt;/code&gt;. I’ll see what I can do to avoid using it in the future.&lt;/p&gt;
+
+&lt;h3&gt;Performance concerns&lt;/h3&gt;
+&lt;p&gt;I use &lt;code&gt;&lt;a href=\&quot;http://acrobatfaq.com/atbref7/index/ActionsRules/Operators/FullOperatorList/findquery.html\&quot;&gt;find()&lt;/a&gt;&lt;/code&gt; to look up all the notes that have been published to DEVONthink. Then I iterate through them and replace the exported paths with the &lt;code&gt;x-devonthink-item://&lt;/code&gt; URLs. This is a lot slower than just looking for the links that are in the note itself. But I think that’s the only way to support links that are provided by child notes.&lt;/p&gt;
+
+
+&lt;h2&gt;Version history&lt;/h2&gt;
+
+&lt;h3&gt;0.3.0&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; Replace all exported path links with DEVONthink links when possible – this supports links generated by agents, &lt;code&gt;&lt;a href=\&quot;http://acrobatfaq.com/atbref7/index/ExportCodes/ExportCodes-FullListing/includeitemgrouptemplate.html\&quot;&gt;&amp;Hat;include&amp;Hat;&lt;/a&gt;&lt;/code&gt;, &lt;code&gt;&lt;a href=\&quot;http://acrobatfaq.com/atbref7/index/ExportCodes/ExportCodes-FullListing/linkToitemdatacssclass.html\&quot;&gt;&amp;Hat;linkTo&amp;Hat;&lt;/a&gt;&lt;/code&gt;, etc&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;0.2.0&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; Replace path-based text links with DEVONthink links – e.g. &lt;code&gt;&amp;lt;a href=\&quot;Publish_to_DEVONthink.html\&quot;&amp;gt;Check it out!&amp;lt;/a&amp;gt;&lt;/code&gt; becomes &lt;code&gt;&amp;lt;a href=\&quot;x-devonthink-item://919FE3FC-88CD-4E6A-804A-F4DDA4F2C114\&quot;&amp;gt;Check it out!&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;0.1.0&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; Basic publish to DEVONthink functionality&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;/body&gt;
+&lt;/html&gt;</attribute>
+<attribute name="Name" >Publish to DEVONthink</attribute>
+<attribute name="SelectionCount" >366</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Warning: This is beta software!
+It does the job fine for me, but is still a bit rough around the edges. If you don’t understand how it’s built, you might get confused. Ask for help on the forum and I’ll do my best to help you out.
+&lt;hr/&gt;
+I love taking notes with Tinderbox, don’t you? It gives me a nice structured way of looking at information, and then I can export it to take it with me or share it with others.
+Ever since DEVONthink To Go was released, I’ve wanted to use it to take my Tinderbox notes with me. So I run &lt;code&gt;File-&gt;Export-&gt;as HTML&lt;/code&gt;, index the folder in DEVONthink, and off I go, right? Not quite…
+There’s one key problem that prevents me from effectively taking my Tinderbox notes on the road:
+Indexed folders in DEVONthink kind of suck, unless that’s what you really want.
+You’ve got a giant Bookends library that you want to search with DEVONthink? Great, index the Bookends folder. Just don’t bother using DEVONthink’s Copy item link feature. As soon as you move or rename a file on disk, the &lt;code&gt;x-devonthink-item://&lt;/code&gt; link breaks. And I love those links! You can add them to your task manager and calendar, and they always take you to the record you want – if it’s an imported record. So how do you make that work with Tinderbox?
+Take notes in Tinderbox. Publish to DEVONthink. Maintain the link.
+Publishing from Tinderbox to DEVONthink is easy, with the code provided in this document. With it, you can:
+* press one button to publish a note from Tinderbox to DEVONthink
+* automatically link the Tinderbox note to the created DEVONthink record
+* update your DEVONthink records with the press of a button
+* file the record wherever you like in your DEVONthink database
+* use the &lt;code&gt;x-devonthink-item://&lt;/code&gt; link anywhere you want, confident that it will always work</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6dCAAAKwAAAAEAAACVCAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLU1lZGl1bTtcZjFcZm5pbFxmY2hhcnNldDAgTWVyY3VyeVNTbS1Cb29rO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQpccGFyZFx0eDM2MFx0eDcyMFx0eDEwODBcdHgxNDQwXHJpNDAwXHNiODBcc2E4MFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcYlxmczMyIFxjZjAgV2FybmluZzogVGhpcyBpcyBiZXRhIHNvZnR3YXJlIQpcZjFcYjAgXApJdCBkb2VzIHRoZSBqb2IgZmluZSBmb3IgbWUsIGJ1dCBpcyBzdGlsbCBhIGJpdCByb3VnaCBhcm91bmQgdGhlIGVkZ2VzLiBJZiB5b3UgZG9uXCc5MnQgdW5kZXJzdGFuZCBob3cgaXRcJzkycyBidWlsdCwgeW91IG1pZ2h0IGdldCBjb25mdXNlZC4gQXNrIGZvciBoZWxwIG9uIHRoZSBmb3J1bSBhbmQgSVwnOTJsbCBkbyBteSBiZXN0IHRvIGhlbHAgeW91IG91dC5cCjxoci8+XApJIGxvdmUgdGFraW5nIG5vdGVzIHdpdGggVGluZGVyYm94LCBkb25cJzkydCB5b3U/IEl0IGdpdmVzIG1lIGEgbmljZSBzdHJ1Y3R1cmVkIHdheSBvZiBsb29raW5nIGF0IGluZm9ybWF0aW9uLCBhbmQgdGhlbiBJIGNhbiBleHBvcnQgaXQgdG8gdGFrZSBpdCB3aXRoIG1lIG9yIHNoYXJlIGl0IHdpdGggb3RoZXJzLlwKRXZlciBzaW5jZSBERVZPTnRoaW5rIFRvIEdvIHdhcyByZWxlYXNlZCwgSVwnOTJ2ZSB3YW50ZWQgdG8gdXNlIGl0IHRvIHRha2UgbXkgVGluZGVyYm94IG5vdGVzIHdpdGggbWUuIFNvIEkgcnVuIDxjb2RlPkZpbGUtPkV4cG9ydC0+YXMgSFRNTDwvY29kZT4sIGluZGV4IHRoZSBmb2xkZXIgaW4gREVWT050aGluaywgYW5kIG9mZiBJIGdvLCByaWdodD8gTm90IHF1aXRlXCc4NVwKVGhlcmVcJzkycyBvbmUga2V5IHByb2JsZW0gdGhhdCBwcmV2ZW50cyBtZSBmcm9tIGVmZmVjdGl2ZWx5IHRha2luZyBteSBUaW5kZXJib3ggbm90ZXMgb24gdGhlIHJvYWQ6XAoKXGYwXGIgSW5kZXhlZCBmb2xkZXJzIGluIERFVk9OdGhpbmsga2luZCBvZiBzdWNrLCB1bmxlc3MgdGhhdFwnOTJzIHdoYXQgeW91IHJlYWxseSB3YW50LgpcZjFcYjAgXApZb3VcJzkydmUgZ290IGEgZ2lhbnQgQm9va2VuZHMgbGlicmFyeSB0aGF0IHlvdSB3YW50IHRvIHNlYXJjaCB3aXRoIERFVk9OdGhpbms/IEdyZWF0LCBpbmRleCB0aGUgQm9va2VuZHMgZm9sZGVyLiBKdXN0IGRvblwnOTJ0IGJvdGhlciB1c2luZyBERVZPTnRoaW5rXCc5MnMgClxpIENvcHkgaXRlbSBsaW5rClxpMCAgZmVhdHVyZS4gQXMgc29vbiBhcyB5b3UgbW92ZSBvciByZW5hbWUgYSBmaWxlIG9uIGRpc2ssIHRoZSA8Y29kZT54LWRldm9udGhpbmstaXRlbTovLzwvY29kZT4gbGluayBicmVha3MuIEFuZCBJIGxvdmUgdGhvc2UgbGlua3MhIFlvdSBjYW4gYWRkIHRoZW0gdG8geW91ciB0YXNrIG1hbmFnZXIgYW5kIGNhbGVuZGFyLCBhbmQgdGhleSAKXGkgYWx3YXlzClxpMCAgdGFrZSB5b3UgdG8gdGhlIHJlY29yZCB5b3Ugd2FudCBcJzk2IApcaSBpZgpcaTAgIGl0XCc5MnMgYW4gaW1wb3J0ZWQgcmVjb3JkLiBTbyBob3cgZG8geW91IG1ha2UgdGhhdCB3b3JrIHdpdGggVGluZGVyYm94P1wKClxmMFxiIFRha2Ugbm90ZXMgaW4gVGluZGVyYm94LiBQdWJsaXNoIHRvIERFVk9OdGhpbmsuIE1haW50YWluIHRoZSBsaW5rLgpcZjFcYjAgXApQdWJsaXNoaW5nIGZyb20gVGluZGVyYm94IHRvIERFVk9OdGhpbmsgaXMgZWFzeSwgd2l0aCB0aGUgY29kZSBwcm92aWRlZCBpbiB0aGlzIGRvY3VtZW50LiBXaXRoIGl0LCB5b3UgY2FuOlwKKiBwcmVzcyBvbmUgYnV0dG9uIHRvIHB1Ymxpc2ggYSBub3RlIGZyb20gVGluZGVyYm94IHRvIERFVk9OdGhpbmtcCiogYXV0b21hdGljYWxseSBsaW5rIHRoZSBUaW5kZXJib3ggbm90ZSB0byB0aGUgY3JlYXRlZCBERVZPTnRoaW5rIHJlY29yZFwKKiB1cGRhdGUgeW91ciBERVZPTnRoaW5rIHJlY29yZHMgd2l0aCB0aGUgcHJlc3Mgb2YgYSBidXR0b25cCiogZmlsZSB0aGUgcmVjb3JkIHdoZXJldmVyIHlvdSBsaWtlIGluIHlvdXIgREVWT050aGluayBkYXRhYmFzZVwKKiB1c2UgdGhlIDxjb2RlPngtZGV2b250aGluay1pdGVtOi8vPC9jb2RlPiBsaW5rIGFueXdoZXJlIHlvdSB3YW50LCBjb25maWRlbnQgdGhhdCBpdCB3aWxsIGFsd2F5cyB3b3JrfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAFMATVq2AQAAAAAAAAAAAAA=</rtfd>
+<item ID="1514938348" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T15:25:07-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-02T15:25:07-07:00</attribute>
+<attribute name="Name" >Two ways to publish</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="Xpos" >14</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1514938337" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T14:59:10-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-02T15:08:26-07:00</attribute>
+<attribute name="Name" >1. The quick-start method (just edit this document!)</attribute>
+<attribute name="SelectionCount" >19</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >The quickest way to publish from Tinderbox to DEVONthink is to simply use this document. Add a note and run &lt;code&gt;Stamps-&gt;Publish to DEVONthink&lt;/code&gt;. If everything goes well, DEVONthink will have a new HTML record and your note will now have its &lt;code&gt;$SourceURL&lt;/code&gt; attribute set to the &lt;code&gt;x-devonthink-item://&lt;/code&gt; URL. Click it to open the record in DEVONthink.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5+AgAAKwAAAAEAAAB2AgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmODMwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9CntcKlxleHBhbmRlZGNvbG9ydGJsOzt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjAgVGhlIHF1aWNrZXN0IHdheSB0byBwdWJsaXNoIGZyb20gVGluZGVyYm94IHRvIERFVk9OdGhpbmsgaXMgdG8gc2ltcGx5IHVzZSB0aGlzIGRvY3VtZW50LiBBZGQgYSBub3RlIGFuZCBydW4gPGNvZGU+U3RhbXBzLT5QdWJsaXNoIHRvIERFVk9OdGhpbms8L2NvZGU+LiBJZiBldmVyeXRoaW5nIGdvZXMgd2VsbCwgREVWT050aGluayB3aWxsIGhhdmUgYSBuZXcgSFRNTCByZWNvcmQgYW5kIHlvdXIgbm90ZSB3aWxsIG5vdyBoYXZlIGl0cyA8Y29kZT4kU291cmNlVVJMPC9jb2RlPiBhdHRyaWJ1dGUgc2V0IHRvIHRoZSA8Y29kZT54LWRldm9udGhpbmstaXRlbTovLzwvY29kZT4gVVJMLiBDbGljayBpdCB0byBvcGVuIHRoZSByZWNvcmQgaW4gREVWT050aGluay59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAA2gJMWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1514938340" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T15:12:24-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-02T15:22:16-07:00</attribute>
+<attribute name="Name" >2. Publish from existing documents</attribute>
+<attribute name="SelectionCount" >8</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Already have a document with a bunch of notes in it? No problem. It’s a little bit more involved than the quick-start method, but it should still only take a few minutes. Here’s what you do:
+
+# Make sure you have an HTML template defined (you can use &lt;code&gt;File-&gt;Built-In Templates-&gt;HTML&lt;/code&gt; if you don’t have any)
+# Add the &lt;code&gt;Code&lt;/code&gt; prototype: &lt;code&gt;File-&gt;Built-In Prototypes-&gt;Code&lt;/code&gt;
+# Copy the &lt;code&gt;Stamps&lt;/code&gt; container into your document
+# Copy the &lt;code&gt;Applescripts&lt;/code&gt; container into your document
+# Create a stamp with the following action code: &lt;code&gt;action($Text(&quot;/Stamps/Publish to DEVONthink&quot;))&lt;/code&gt;
+
+Run the stamp on your note!</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6yAwAAKwAAAAEAAACqAwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmODMwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9CntcKlxleHBhbmRlZGNvbG9ydGJsOzt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjAgQWxyZWFkeSBoYXZlIGEgZG9jdW1lbnQgd2l0aCBhIGJ1bmNoIG9mIG5vdGVzIGluIGl0PyBObyBwcm9ibGVtLiBJdFwnOTJzIGEgbGl0dGxlIGJpdCBtb3JlIGludm9sdmVkIHRoYW4gdGhlIHF1aWNrLXN0YXJ0IG1ldGhvZCwgYnV0IGl0IHNob3VsZCBzdGlsbCBvbmx5IHRha2UgYSBmZXcgbWludXRlcy4gSGVyZVwnOTJzIHdoYXQgeW91IGRvOlwKXAojIE1ha2Ugc3VyZSB5b3UgaGF2ZSBhbiBIVE1MIHRlbXBsYXRlIGRlZmluZWQgKHlvdSBjYW4gdXNlIDxjb2RlPkZpbGUtPkJ1aWx0LUluIFRlbXBsYXRlcy0+SFRNTDwvY29kZT4gaWYgeW91IGRvblwnOTJ0IGhhdmUgYW55KVwKIyBBZGQgdGhlIDxjb2RlPkNvZGU8L2NvZGU+IHByb3RvdHlwZTogPGNvZGU+RmlsZS0+QnVpbHQtSW4gUHJvdG90eXBlcy0+Q29kZTwvY29kZT5cCiMgQ29weSB0aGUgPGNvZGU+U3RhbXBzPC9jb2RlPiBjb250YWluZXIgaW50byB5b3VyIGRvY3VtZW50XAojIENvcHkgdGhlIDxjb2RlPkFwcGxlc2NyaXB0czwvY29kZT4gY29udGFpbmVyIGludG8geW91ciBkb2N1bWVudFwKIyBDcmVhdGUgYSBzdGFtcCB3aXRoIHRoZSBmb2xsb3dpbmcgYWN0aW9uIGNvZGU6IDxjb2RlPmFjdGlvbigkVGV4dCgiL1N0YW1wcy9QdWJsaXNoIHRvIERFVk9OdGhpbmsiKSk8L2NvZGU+XApcClJ1biB0aGUgc3RhbXAgb24geW91ciBub3RlIX0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAAYBkxatgEAAAAAAAAAAAAA</rtfd>
+</item>
+</item>
+<item ID="1514938339" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T15:09:49-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-02T16:02:34-07:00</attribute>
+<attribute name="Name" >What gets published</attribute>
+<attribute name="SelectionCount" >12</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >* &lt;code&gt;$Name&lt;/code&gt;
+* &lt;code&gt;$URL&lt;/code&gt;
+* HTML representation of the note, as defined by &lt;code&gt;$HTMLExportTemplate&lt;/code&gt; property
+If you make changes to your note, you can update the record in DEVONthink simply by publishing the note again.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC79AQAAKwAAAAEAAAD1AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmODMwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9CntcKlxleHBhbmRlZGNvbG9ydGJsOzt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjAgKiA8Y29kZT4kTmFtZTwvY29kZT5cCiogPGNvZGU+JFVSTDwvY29kZT5cCiogSFRNTCByZXByZXNlbnRhdGlvbiBvZiB0aGUgbm90ZSwgYXMgZGVmaW5lZCBieSA8Y29kZT4kSFRNTEV4cG9ydFRlbXBsYXRlPC9jb2RlPiBwcm9wZXJ0eVwKSWYgeW91IG1ha2UgY2hhbmdlcyB0byB5b3VyIG5vdGUsIHlvdSBjYW4gdXBkYXRlIHRoZSByZWNvcmQgaW4gREVWT050aGluayBzaW1wbHkgYnkgcHVibGlzaGluZyB0aGUgbm90ZSBhZ2Fpbi59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAig9MWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1514954874" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T21:47:53-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="KeyAttributes" >SourceURL;MyDate</attribute>
+<attribute name="Modified" >2018-01-03T08:15:31-07:00</attribute>
+<attribute name="MyString" >&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=\&quot;content-type\&quot; content=\&quot;text/html; charset=utf-8\&quot;&gt;
+	&lt;title&gt;Links between notes become DEVONthink links&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;Links between notes become DEVONthink links&lt;/h1&gt;
+&lt;p&gt;One of my main goals with this project is to build a personal &lt;a href=\&quot;http://wiki.c2.com/?WelcomeVisitors\&quot;&gt;wiki&lt;/a&gt; with Tinderbox – and then take it with me wherever I go. To do that, the pages need to be able to link to one another… which is precisely what this document does.&lt;/p&gt;
+&lt;p&gt;Assuming that you have published your notes to DEVONthink, any links will automatically be converted to &lt;code&gt;x-devonthink-item://&lt;/code&gt; links.&lt;/p&gt;
+&lt;p&gt;&lt;a href=\&quot;x-devonthink-item://919FE3FC-88CD-4E6A-804A-F4DDA4F2C114\&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;For this to work, you may need to publish your notes twice.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The first pass imports the note into DEVONthink. This sets &lt;code&gt;$SourceURL&lt;/code&gt; on the note. Before a note has a &lt;code&gt;$SourceURL&lt;/code&gt;, any incoming links will not work in DEVONthink. Here’s an example:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt; &lt;b&gt;Note A&lt;/b&gt; links to &lt;b&gt;Note B&lt;/b&gt;. Neither has been published to DEVONthink.&lt;/li&gt;
+&lt;li&gt; Publish &lt;b&gt;Note A&lt;/b&gt;. The link to &lt;b&gt;Note B&lt;/b&gt; will not be converted to a DEVONthink link, because &lt;b&gt;Note B&lt;/b&gt; has not been published and does not have a &lt;code&gt;$SourceURL&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt; Publish &lt;b&gt;Note B&lt;/b&gt;. It now has a &lt;code&gt;$SourceURL&lt;/code&gt;. The published DEVONthink record for &lt;b&gt;Note A&lt;/b&gt; still has a broken link, because it was published before &lt;b&gt;Note B&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt; Publish &lt;b&gt;Note A&lt;/b&gt; again. It picks up the &lt;code&gt;$SourceURL&lt;/code&gt; from &lt;b&gt;Note B&lt;/b&gt;, and the published DEVONthink record has a working &lt;code&gt;x-devonthink-item://&lt;/code&gt; link&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;The simplest solution is to publish all your notes twice each time you add or link new notes.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;I hope to improve this functionality in the future to make it faster and more automatic.&lt;/p&gt;
+&lt;h2&gt;Possible issues&lt;/h2&gt;
+&lt;p&gt;There are probably some edge cases, and for now it’s best to only publish top-level notes with distinct names. But it’s working well for me so far…&lt;/p&gt;
+
+&lt;h2&gt;Implementation note&lt;/h2&gt;
+&lt;p&gt;To get this working quickly, and to minimize the number of steps required to make this work for existing documents, the &lt;code&gt;x-devonthink-item://&lt;/code&gt; linking functionality uses &lt;code&gt;$MyString&lt;/code&gt; as a temporary storage area. If you have agents that suddenly go out of whack, it may be because they’re relying on &lt;code&gt;$MyString&lt;/code&gt;. I’ll see what I can do to avoid using it in the future.&lt;/p&gt;
+
+&lt;h2&gt;Performance concerns&lt;/h2&gt;
+&lt;p&gt;I use &lt;code&gt;&lt;a href=\&quot;http://acrobatfaq.com/atbref7/index/ActionsRules/Operators/FullOperatorList/findquery.html\&quot;&gt;find()&lt;/a&gt;&lt;/code&gt; to look up all the notes that have been published to DEVONthink. Then I iterate through them and replace the exported paths with the &lt;code&gt;x-devonthink-item://&lt;/code&gt; URLs. This is a lot slower than just looking for the links that are in the note itself. But I think that’s the only way to support links that are provided by child notes.&lt;/p&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;</attribute>
+<attribute name="Name" >Links between notes become DEVONthink links</attribute>
+<attribute name="SelectionCount" >92</attribute>
+<attribute name="Xpos" >21</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >One of my main goals with this project is to build a personal wiki with Tinderbox – and then take it with me wherever I go. To do that, the pages need to be able to link to one another… which is precisely what this document does.
+Assuming that you have published your notes to DEVONthink, any links will automatically be converted to &lt;code&gt;x-devonthink-item://&lt;/code&gt; links.
+For this to work, you may need to publish your notes twice.
+The first pass imports the note into DEVONthink. This sets &lt;code&gt;$SourceURL&lt;/code&gt; on the note. Before a note has a &lt;code&gt;$SourceURL&lt;/code&gt;, any incoming links will not work in DEVONthink. Here’s an example:
+* Note A links to Note B. Neither has been published to DEVONthink.
+* Publish Note A. The link to Note B will not be converted to a DEVONthink link, because Note B has not been published and does not have a &lt;code&gt;$SourceURL&lt;/code&gt;
+* Publish Note B. It now has a &lt;code&gt;$SourceURL&lt;/code&gt;. The published DEVONthink record for Note A still has a broken link, because it was published before Note B.
+* Publish Note A again. It picks up the &lt;code&gt;$SourceURL&lt;/code&gt; from Note B, and the published DEVONthink record has a working &lt;code&gt;x-devonthink-item://&lt;/code&gt; link
+The simplest solution is to publish all your notes twice each time you add or link new notes.
+I hope to improve this functionality in the future to make it faster and more automatic.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4JBwAAKwAAAAEAAAABBwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgT25lIG9mIG15IG1haW4gZ29hbHMgd2l0aCB0aGlzIHByb2plY3QgaXMgdG8gYnVpbGQgYSBwZXJzb25hbCB3aWtpIHdpdGggVGluZGVyYm94IFwnOTYgYW5kIHRoZW4gdGFrZSBpdCB3aXRoIG1lIHdoZXJldmVyIEkgZ28uIFRvIGRvIHRoYXQsIHRoZSBwYWdlcyBuZWVkIHRvIGJlIGFibGUgdG8gbGluayB0byBvbmUgYW5vdGhlclwnODUgd2hpY2ggaXMgcHJlY2lzZWx5IHdoYXQgdGhpcyBkb2N1bWVudCBkb2VzLlwKQXNzdW1pbmcgdGhhdCB5b3UgaGF2ZSBwdWJsaXNoZWQgeW91ciBub3RlcyB0byBERVZPTnRoaW5rLCBhbnkgbGlua3Mgd2lsbCBhdXRvbWF0aWNhbGx5IGJlIGNvbnZlcnRlZCB0byA8Y29kZT54LWRldm9udGhpbmstaXRlbTovLzwvY29kZT4gbGlua3MuXApccGFyZFx0eDM2MFx0eDcyMFx0eDEwODBcdHgxNDQwXHJpNDAwXHNiODBcc2E4MFxwYXJkaXJuYXR1cmFsCgpcYiBcY2YwIEZvciB0aGlzIHRvIHdvcmssIHlvdSBtYXkgbmVlZCB0byBwdWJsaXNoIHlvdXIgbm90ZXMgdHdpY2UuClxiMCBcClRoZSBmaXJzdCBwYXNzIGltcG9ydHMgdGhlIG5vdGUgaW50byBERVZPTnRoaW5rLiBUaGlzIHNldHMgPGNvZGU+JFNvdXJjZVVSTDwvY29kZT4gb24gdGhlIG5vdGUuIEJlZm9yZSBhIG5vdGUgaGFzIGEgPGNvZGU+JFNvdXJjZVVSTDwvY29kZT4sIGFueSBpbmNvbWluZyBsaW5rcyB3aWxsIG5vdCB3b3JrIGluIERFVk9OdGhpbmsuIEhlcmVcJzkycyBhbiBleGFtcGxlOlwKKiAKXGIgTm90ZSBBClxiMCAgbGlua3MgdG8gClxiIE5vdGUgQgpcYjAgLiBOZWl0aGVyIGhhcyBiZWVuIHB1Ymxpc2hlZCB0byBERVZPTnRoaW5rLlwKKiBQdWJsaXNoIApcYiBOb3RlIEEKXGIwIC4gVGhlIGxpbmsgdG8gClxiIE5vdGUgQgpcYjAgIHdpbGwgbm90IGJlIGNvbnZlcnRlZCB0byBhIERFVk9OdGhpbmsgbGluaywgYmVjYXVzZSAKXGIgTm90ZSBCClxiMCAgaGFzIG5vdCBiZWVuIHB1Ymxpc2hlZCBhbmQgZG9lcyBub3QgaGF2ZSBhIDxjb2RlPiRTb3VyY2VVUkw8L2NvZGU+XAoqIFB1Ymxpc2ggClxiIE5vdGUgQgpcYjAgLiBJdCBub3cgaGFzIGEgPGNvZGU+JFNvdXJjZVVSTDwvY29kZT4uIFRoZSBwdWJsaXNoZWQgREVWT050aGluayByZWNvcmQgZm9yIApcYiBOb3RlIEEKXGIwICBzdGlsbCBoYXMgYSBicm9rZW4gbGluaywgYmVjYXVzZSBpdCB3YXMgcHVibGlzaGVkIGJlZm9yZSAKXGIgTm90ZSBCClxiMCAuXAoqIFB1Ymxpc2ggClxiIE5vdGUgQQpcYjAgIGFnYWluLiBJdCBwaWNrcyB1cCB0aGUgPGNvZGU+JFNvdXJjZVVSTDwvY29kZT4gZnJvbSAKXGIgTm90ZSBCClxiMCAsIGFuZCB0aGUgcHVibGlzaGVkIERFVk9OdGhpbmsgcmVjb3JkIGhhcyBhIHdvcmtpbmcgPGNvZGU+eC1kZXZvbnRoaW5rLWl0ZW06Ly88L2NvZGU+IGxpbmtcCgpcYiBUaGUgc2ltcGxlc3Qgc29sdXRpb24gaXMgdG8gcHVibGlzaCBhbGwgeW91ciBub3RlcyB0d2ljZSBlYWNoIHRpbWUgeW91IGFkZCBvciBsaW5rIG5ldyBub3Rlcy4KXGIwIFwKSSBob3BlIHRvIGltcHJvdmUgdGhpcyBmdW5jdGlvbmFsaXR5IGluIHRoZSBmdXR1cmUgdG8gbWFrZSBpdCBmYXN0ZXIgYW5kIG1vcmUgYXV0b21hdGljLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAA09ExatgEAAAAAAAAAAAAA</rtfd>
+<item ID="1514957317" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T22:28:36-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-02T22:28:44-07:00</attribute>
+<attribute name="Name" >Possible issues</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >There are probably some edge cases, and for now it’s best to only publish top-level notes with distinct names. But it’s working well for me so far…</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC50AQAAKwAAAAEAAABsAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgVGhlcmUgYXJlIHByb2JhYmx5IHNvbWUgZWRnZSBjYXNlcywgYW5kIGZvciBub3cgaXRcJzkycyBiZXN0IHRvIG9ubHkgcHVibGlzaCB0b3AtbGV2ZWwgbm90ZXMgd2l0aCBkaXN0aW5jdCBuYW1lcy4gQnV0IGl0XCc5MnMgd29ya2luZyB3ZWxsIGZvciBtZSBzbyBmYXJcJzg1fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAAxqTFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1514957151" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T22:25:50-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-02T22:27:50-07:00</attribute>
+<attribute name="Name" >Implementation note</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >To get this working quickly, and to minimize the number of steps required to make this work for existing documents, the &lt;code&gt;x-devonthink-item://&lt;/code&gt; linking functionality uses &lt;code&gt;$MyString&lt;/code&gt; as a temporary storage area. If you have agents that suddenly go out of whack, it may be because they’re relying on &lt;code&gt;$MyString&lt;/code&gt;. I’ll see what I can do to avoid using it in the future.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5tAgAAKwAAAAEAAABlAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgVG8gZ2V0IHRoaXMgd29ya2luZyBxdWlja2x5LCBhbmQgdG8gbWluaW1pemUgdGhlIG51bWJlciBvZiBzdGVwcyByZXF1aXJlZCB0byBtYWtlIHRoaXMgd29yayBmb3IgZXhpc3RpbmcgZG9jdW1lbnRzLCB0aGUgPGNvZGU+eC1kZXZvbnRoaW5rLWl0ZW06Ly88L2NvZGU+IGxpbmtpbmcgZnVuY3Rpb25hbGl0eSB1c2VzIDxjb2RlPiRNeVN0cmluZzwvY29kZT4gYXMgYSB0ZW1wb3Jhcnkgc3RvcmFnZSBhcmVhLiBJZiB5b3UgaGF2ZSBhZ2VudHMgdGhhdCBzdWRkZW5seSBnbyBvdXQgb2Ygd2hhY2ssIGl0IG1heSBiZSBiZWNhdXNlIHRoZXlcJzkycmUgcmVseWluZyBvbiA8Y29kZT4kTXlTdHJpbmc8L2NvZGU+LiBJXCc5MmxsIHNlZSB3aGF0IEkgY2FuIGRvIHRvIGF2b2lkIHVzaW5nIGl0IGluIHRoZSBmdXR1cmUufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAANZpTFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1514963961" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-03T00:19:20-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-03T00:23:46-07:00</attribute>
+<attribute name="Name" >Performance concerns</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >I use &lt;code&gt;find()&lt;/code&gt; to look up all the notes that have been published to DEVONthink. Then I iterate through them and replace the exported paths with the &lt;code&gt;x-devonthink-item://&lt;/code&gt; URLs. This is a lot slower than just looking for the links that are in the note itself. But I think that’s the only way to support links that are provided by child notes.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5MAgAAKwAAAAEAAABEAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgSSB1c2UgPGNvZGU+ZmluZCgpPC9jb2RlPiB0byBsb29rIHVwIGFsbCB0aGUgbm90ZXMgdGhhdCBoYXZlIGJlZW4gcHVibGlzaGVkIHRvIERFVk9OdGhpbmsuIFRoZW4gSSBpdGVyYXRlIHRocm91Z2ggdGhlbSBhbmQgcmVwbGFjZSB0aGUgZXhwb3J0ZWQgcGF0aHMgd2l0aCB0aGUgPGNvZGU+eC1kZXZvbnRoaW5rLWl0ZW06Ly88L2NvZGU+IFVSTHMuIFRoaXMgaXMgYSBsb3Qgc2xvd2VyIHRoYW4ganVzdCBsb29raW5nIGZvciB0aGUgbGlua3MgdGhhdCBhcmUgaW4gdGhlIG5vdGUgaXRzZWxmLiBCdXQgSSB0aGluayB0aGF0XCc5MnMgdGhlIG9ubHkgd2F5IHRvIHN1cHBvcnQgbGlua3MgdGhhdCBhcmUgcHJvdmlkZWQgYnkgY2hpbGQgbm90ZXMufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAAKFTFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+</item>
+<item ID="1514991204" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-03T07:53:23-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-03T07:53:23-07:00</attribute>
+<attribute name="Name" >Version history</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >17.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1514991210" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-03T07:53:29-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-03T08:03:50-07:00</attribute>
+<attribute name="Name" >0.3.0</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="URL" >https://www.toptal.com/designers/htmlarrows/punctuation/caret/</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >* Replace all exported path links with DEVONthink links when possible – this supports links generated by agents, &lt;code&gt;&amp;Hat;include&amp;Hat;&lt;/code&gt;, &lt;code&gt;&amp;Hat;linkTo&amp;Hat;&lt;/code&gt;, etc</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6UAQAAKwAAAAEAAACMAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgKiBSZXBsYWNlIGFsbCBleHBvcnRlZCBwYXRoIGxpbmtzIHdpdGggREVWT050aGluayBsaW5rcyB3aGVuIHBvc3NpYmxlIFwnOTYgdGhpcyBzdXBwb3J0cyBsaW5rcyBnZW5lcmF0ZWQgYnkgYWdlbnRzLCA8Y29kZT4mSGF0O2luY2x1ZGUmSGF0OzwvY29kZT4sIDxjb2RlPiZIYXQ7bGlua1RvJkhhdDs8L2NvZGU+LCBldGN9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAA1vBMWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1514991342" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-03T07:55:41-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-03T07:58:59-07:00</attribute>
+<attribute name="Name" >0.2.0</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="URL" >http://forum.eastgate.com/</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >* Replace path-based text links with DEVONthink links – e.g. &lt;code&gt;&amp;lt;a href=&quot;Publish_to_DEVONthink.html&quot;&amp;gt;Check it out!&amp;lt;/a&amp;gt;&lt;/code&gt; becomes &lt;code&gt;&amp;lt;a href=&quot;x-devonthink-item://919FE3FC-88CD-4E6A-804A-F4DDA4F2C114&quot;&amp;gt;Check it out!&amp;lt;/a&amp;gt;&lt;/code&gt;</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7jAQAAKwAAAAEAAADbAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBccmk0MDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgKiBSZXBsYWNlIHBhdGgtYmFzZWQgdGV4dCBsaW5rcyB3aXRoIERFVk9OdGhpbmsgbGlua3MgXCc5NiBlLmcuIDxjb2RlPiZsdDthIGhyZWY9IlB1Ymxpc2hfdG9fREVWT050aGluay5odG1sIiZndDtDaGVjayBpdCBvdXQhJmx0Oy9hJmd0OzwvY29kZT4gYmVjb21lcyA8Y29kZT4mbHQ7YSBocmVmPSJ4LWRldm9udGhpbmstaXRlbTovLzkxOUZFM0ZDLTg4Q0QtNEU2QS04MDRBLUY0RERBNEYyQzExNCImZ3Q7Q2hlY2sgaXQgb3V0ISZsdDsvYSZndDs8L2NvZGU+fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAALPvTFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1514991346" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-03T07:55:45-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-03T07:56:26-07:00</attribute>
+<attribute name="Name" >0.1.0</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >* Basic publish to DEVONthink functionality</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4DAQAAKwAAAAEAAAD7AAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxwYXJkXHR4MzYwXHR4NzIwXHR4MTA4MFx0eDE0NDBcc2I4MFxzYTgwXHBhcmRpcm5hdHVyYWwKClxmMFxmczMyIFxjZjAgKiBCYXNpYyBwdWJsaXNoIHRvIERFVk9OdGhpbmsgZnVuY3Rpb25hbGl0eX0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAAa70xatgEAAAAAAAAAAAAA</rtfd>
+</item>
+</item>
+</item>
+<item ID="1514958648" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T22:50:47-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2018-01-02T22:50:47-07:00</attribute>
+<attribute name="Name" >INFRASTRUCTURE</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Separator" >true</attribute>
+<attribute name="SortAlsoTransform" ></attribute>
+<attribute name="SortTransform" ></attribute>
+<attribute name="Xpos" >28</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1514926393" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T13:53:12-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-02T13:53:12-07:00</attribute>
+<attribute name="Name" >Stamps</attribute>
+<attribute name="SelectionCount" >12</attribute>
+<attribute name="Xpos" >31.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1514926388" Creator="Pat Maddox" proto="Code" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T13:53:07-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-03T00:29:38-07:00</attribute>
+<attribute name="Name" >Publish to DEVONthink</attribute>
+<attribute name="SelectionCount" >32</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >var theExport;
+theExport = exportedString(this, $HTMLExportTemplate).replace(&apos;\&quot;&apos;, &apos;\\~~TINDER_WUT~~\&quot;&apos;).replace(&apos;~~TINDER_WUT~~&apos;, &apos;&apos;);
+
+var linkNotes;
+linkNotes = find($SourceURL.beginsWith(&quot;x-devonthink-item&quot;));
+$MyString = ;
+linkNotes.each(l) {
+  var dtLink($SourceURL(l));
+  if(dtLink.beginsWith(&quot;x-devonthink-item&quot;)) {
+    var linkPath($HTMLExportPath(l));
+    linkPath = linkPath.substr(1, linkPath.size - 1);
+    theExport = theExport.replace(linkPath, dtLink);
+  };
+};
+$MyString = theExport;
+
+
+if($SourceURL.beginsWith(&quot;x-devonthink-item&quot;)) {
+  var command;
+  command = exportedString(this, &quot;/Applescripts/Update DEVONthink record&quot;);
+  runCommand(&quot;/usr/bin/osascript&quot;, command.json);
+} else {
+  var command;
+  command = exportedString(this, &quot;/Applescripts/Create DEVONthink record&quot;);
+  var result;
+  result = runCommand(&quot;/usr/bin/osascript&quot;, command.json);
+  if(result.beginsWith(&quot;x-devonthink-item&quot;)) {
+    $SourceURL = result.substr(0, 56);
+  };
+  if(!$KeyAttributes.contains(&quot;SourceURL&quot;)) {
+    $KeyAttributes = $KeyAttributes + &quot;SourceURL&quot;;
+  };
+};
+
+$Text(&quot;/DEBUG&quot;) = command;</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5wBQAAKwAAAAEAAABoBQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBbmRhbGVNb25vO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBccmk0MDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMCB2YXIgdGhlRXhwb3J0O1wKdGhlRXhwb3J0ID0gZXhwb3J0ZWRTdHJpbmcodGhpcywgJEhUTUxFeHBvcnRUZW1wbGF0ZSkucmVwbGFjZSgnXFwiJywgJ1xcXFx+flRJTkRFUl9XVVR+flxcIicpLnJlcGxhY2UoJ35+VElOREVSX1dVVH5+JywgJycpO1wKXAp2YXIgbGlua05vdGVzO1wKbGlua05vdGVzID0gZmluZCgkU291cmNlVVJMLmJlZ2luc1dpdGgoIngtZGV2b250aGluay1pdGVtIikpO1wKJE15U3RyaW5nID0gO1wKbGlua05vdGVzLmVhY2gobCkgXHtcCiAgdmFyIGR0TGluaygkU291cmNlVVJMKGwpKTtcCiAgaWYoZHRMaW5rLmJlZ2luc1dpdGgoIngtZGV2b250aGluay1pdGVtIikpIFx7XAogICAgdmFyIGxpbmtQYXRoKCRIVE1MRXhwb3J0UGF0aChsKSk7XAogICAgbGlua1BhdGggPSBsaW5rUGF0aC5zdWJzdHIoMSwgbGlua1BhdGguc2l6ZSAtIDEpO1wKICAgIHRoZUV4cG9ydCA9IHRoZUV4cG9ydC5yZXBsYWNlKGxpbmtQYXRoLCBkdExpbmspO1wKICBcfTtcClx9O1wKJE15U3RyaW5nID0gdGhlRXhwb3J0O1wKXApcCmlmKCRTb3VyY2VVUkwuYmVnaW5zV2l0aCgieC1kZXZvbnRoaW5rLWl0ZW0iKSkgXHtcCiAgdmFyIGNvbW1hbmQ7XAogIGNvbW1hbmQgPSBleHBvcnRlZFN0cmluZyh0aGlzLCAiL0FwcGxlc2NyaXB0cy9VcGRhdGUgREVWT050aGluayByZWNvcmQiKTtcCiAgcnVuQ29tbWFuZCgiL3Vzci9iaW4vb3Nhc2NyaXB0IiwgY29tbWFuZC5qc29uKTtcClx9IGVsc2UgXHtcCiAgdmFyIGNvbW1hbmQ7XAogIGNvbW1hbmQgPSBleHBvcnRlZFN0cmluZyh0aGlzLCAiL0FwcGxlc2NyaXB0cy9DcmVhdGUgREVWT050aGluayByZWNvcmQiKTtcCiAgdmFyIHJlc3VsdDtcCiAgcmVzdWx0ID0gcnVuQ29tbWFuZCgiL3Vzci9iaW4vb3Nhc2NyaXB0IiwgY29tbWFuZC5qc29uKTtcCiAgaWYocmVzdWx0LmJlZ2luc1dpdGgoIngtZGV2b250aGluay1pdGVtIikpIFx7XAogICAgJFNvdXJjZVVSTCA9IHJlc3VsdC5zdWJzdHIoMCwgNTYpO1wKICBcfTtcCiAgaWYoISRLZXlBdHRyaWJ1dGVzLmNvbnRhaW5zKCJTb3VyY2VVUkwiKSkgXHtcCiAgICAkS2V5QXR0cmlidXRlcyA9ICRLZXlBdHRyaWJ1dGVzICsgIlNvdXJjZVVSTCI7XAogIFx9O1wKXH07XApcCiRUZXh0KCIvREVCVUciKSA9IGNvbW1hbmQ7fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAF4ATVq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+</item>
+<item ID="1514917962" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T11:32:41-07:00</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="Height" >4</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="MapScrollX" >6</attribute>
+<attribute name="Modified" >2018-01-02T11:32:41-07:00</attribute>
+<attribute name="Name" >Templates</attribute>
+<attribute name="OnAdd" >$Prototype=&quot;HTML Template&quot;;$IsTemplate=true;</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Width" >10</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1514923262" Creator="Pat Maddox" proto="HTML Template" >
+<attribute name="Created" >2018-01-02T13:01:01-07:00</attribute>
+<attribute name="Modified" >2018-01-02T15:23:44-07:00</attribute>
+<attribute name="Name" >HTML page</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+	&lt;title&gt;^title^&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h^value($OutlineDepth)^&gt;^title^&lt;/h^value($OutlineDepth)^&gt;
+^text^
+^children(/Templates/HTML page/HTML item)
+&lt;/body&gt;
+&lt;/html&gt;
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC44AgAAKwAAAAEAAAAwAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmODMwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBbmRhbGVNb25vO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7fQpccGFyZFx0eDU2MFx0eDExMjBcdHgxNjgwXHR4MjI0MFx0eDI4MDBcdHgzMzYwXHR4MzkyMFx0eDQ0ODBcdHg1MDQwXHR4NTYwMFx0eDYxNjBcdHg2NzIwXHJpNDAwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzMiBcY2YwIDwhRE9DVFlQRSBodG1sPlwKPGh0bWw+XAo8aGVhZD5cCgk8bWV0YSBodHRwLWVxdWl2PSJjb250ZW50LXR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11dGYtOCI+XAoJPHRpdGxlPl50aXRsZV48L3RpdGxlPlwKPC9oZWFkPlwKPGJvZHk+XApcCjxoXnZhbHVlKCRPdXRsaW5lRGVwdGgpXj5edGl0bGVePC9oXnZhbHVlKCRPdXRsaW5lRGVwdGgpXj5cCl50ZXh0XlwKXmNoaWxkcmVuKC9UZW1wbGF0ZXMvSFRNTCBwYWdlL0hUTUwgaXRlbSlcCjwvYm9keT5cCjwvaHRtbD5cCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAABwBkxatgEAAAAAAAAAAAAA</rtfd>
+<item ID="1514923263" Creator="Pat Maddox" proto="HTML Template" >
+<attribute name="Created" >2018-01-02T13:01:01-07:00</attribute>
+<attribute name="Modified" >2018-01-02T15:24:02-07:00</attribute>
+<attribute name="Name" >HTML item</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >&lt;h^value($OutlineDepth)^&gt;^title^&lt;/h^value($OutlineDepth)^&gt;
+^text
+^children(/Templates/HTML page/HTML item)
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6SAQAAKwAAAAEAAACKAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmODMwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBbmRhbGVNb25vO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7fQpccGFyZFx0eDU2MFx0eDExMjBcdHgxNjgwXHR4MjI0MFx0eDI4MDBcdHgzMzYwXHR4MzkyMFx0eDQ0ODBcdHg1MDQwXHR4NTYwMFx0eDYxNjBcdHg2NzIwXHJpNDAwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzMiBcY2YwIDxoXnZhbHVlKCRPdXRsaW5lRGVwdGgpXj5edGl0bGVePC9oXnZhbHVlKCRPdXRsaW5lRGVwdGgpXj5cCl50ZXh0XApeY2hpbGRyZW4oL1RlbXBsYXRlcy9IVE1MIHBhZ2UvSFRNTCBpdGVtKVwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAIIGTFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+</item>
+<item ID="1514961642" Creator="Pat Maddox" proto="HTML Template" >
+<attribute name="Created" >2018-01-02T23:40:41-07:00</attribute>
+<attribute name="Modified" >2018-01-02T23:41:35-07:00</attribute>
+<attribute name="Name" >Links list</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+	&lt;title&gt;^title^&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h^value($OutlineDepth)^&gt;^title^&lt;/h^value($OutlineDepth)^&gt;
+^text^
+^childLinks^
+&lt;/body&gt;
+&lt;/html&gt;
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4DAgAAKwAAAAEAAAD7AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBbmRhbGVNb25vO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQpccGFyZFx0eDU2MFx0eDExMjBcdHgxNjgwXHR4MjI0MFx0eDI4MDBcdHgzMzYwXHR4MzkyMFx0eDQ0ODBcdHg1MDQwXHR4NTYwMFx0eDYxNjBcdHg2NzIwXHJpNDAwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzMiBcY2YwIDwhRE9DVFlQRSBodG1sPlwKPGh0bWw+XAo8aGVhZD5cCgk8bWV0YSBodHRwLWVxdWl2PSJjb250ZW50LXR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11dGYtOCI+XAoJPHRpdGxlPl50aXRsZV48L3RpdGxlPlwKPC9oZWFkPlwKPGJvZHk+XApcCjxoXnZhbHVlKCRPdXRsaW5lRGVwdGgpXj5edGl0bGVePC9oXnZhbHVlKCRPdXRsaW5lRGVwdGgpXj5cCl50ZXh0XlwKXmNoaWxkTGlua3NeXAo8L2JvZHk+XAo8L2h0bWw+XAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAH3tMWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1514962425" Creator="Pat Maddox" proto="HTML Template" >
+<attribute name="Created" >2018-01-02T23:53:44-07:00</attribute>
+<attribute name="Modified" >2018-01-02T23:53:57-07:00</attribute>
+<attribute name="Name" >HTML text</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >^text^</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4SAQAAKwAAAAEAAAAKAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBbmRhbGVNb25vO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQpccGFyZFx0eDU2MFx0eDExMjBcdHgxNjgwXHR4MjI0MFx0eDI4MDBcdHgzMzYwXHR4MzkyMFx0eDQ0ODBcdHg1MDQwXHR4NTYwMFx0eDYxNjBcdHg2NzIwXHJpNDAwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzMiBcY2YwIF50ZXh0Xn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAAFfkxatgEAAAAAAAAAAAAA</rtfd>
+</item>
+</item>
+<item ID="1514926558" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T13:55:57-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-02T13:55:57-07:00</attribute>
+<attribute name="Name" >Applescripts</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >35</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1514917967" Creator="Pat Maddox" proto="HTML Template" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T11:32:46-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-02T23:37:18-07:00</attribute>
+<attribute name="Name" >Create DEVONthink record</attribute>
+<attribute name="SelectionCount" >44</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >on run argv
+  tell application id &quot;DNtp&quot;
+  ^if(^value($MyString(&quot;/DT configuration&quot;))^)^
+    set theGroup to get record with UUID &quot;^value($MyString(&quot;/DT configuration&quot;))^&quot;
+  ^else^
+    set theGroup to incoming group
+  ^endif^
+    set theRecord to create record with {name:&quot;^value($Name.replace(&apos;\&quot;&apos;, &apos;\\~~TINDER_WUT~~\&quot;&apos;).replace(&apos;~~TINDER_WUT~~&apos;, &apos;&apos;))^&quot;, type:&quot;html&quot;, source:&quot;^value($MyString)^&quot;, URL:&quot;^value($URL)^&quot;} in theGroup
+    reference URL of theRecord as string
+  end tell
+end run</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4GAwAAKwAAAAEAAAD+AgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBbmRhbGVNb25vO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQpccGFyZFx0eDU2MFx0eDExMjBcdHgxNjgwXHR4MjI0MFx0eDI4MDBcdHgzMzYwXHR4MzkyMFx0eDQ0ODBcdHg1MDQwXHR4NTYwMFx0eDYxNjBcdHg2NzIwXHJpNDAwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzMiBcY2YwIG9uIHJ1biBhcmd2XAogIHRlbGwgYXBwbGljYXRpb24gaWQgIkROdHAiXAogIF5pZihedmFsdWUoJE15U3RyaW5nKCIvRFQgY29uZmlndXJhdGlvbiIpKV4pXlwKICAgIHNldCB0aGVHcm91cCB0byBnZXQgcmVjb3JkIHdpdGggVVVJRCAiXnZhbHVlKCRNeVN0cmluZygiL0RUIGNvbmZpZ3VyYXRpb24iKSleIlwKICBeZWxzZV5cCiAgICBzZXQgdGhlR3JvdXAgdG8gaW5jb21pbmcgZ3JvdXBcCiAgXmVuZGlmXlwKICAgIHNldCB0aGVSZWNvcmQgdG8gY3JlYXRlIHJlY29yZCB3aXRoIFx7bmFtZToiXnZhbHVlKCROYW1lLnJlcGxhY2UoJ1xcIicsICdcXFxcfn5USU5ERVJfV1VUfn5cXCInKS5yZXBsYWNlKCd+flRJTkRFUl9XVVR+ficsICcnKSleIiwgdHlwZToiaHRtbCIsIHNvdXJjZToiXnZhbHVlKCRNeVN0cmluZyleIiwgVVJMOiJedmFsdWUoJFVSTCleIlx9IGluIHRoZUdyb3VwXAogICAgcmVmZXJlbmNlIFVSTCBvZiB0aGVSZWNvcmQgYXMgc3RyaW5nXAogIGVuZCB0ZWxsXAplbmQgcnVufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAB56TFq2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1514921408" Creator="Pat Maddox" proto="HTML Template" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T12:30:07-07:00</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="Modified" >2018-01-02T22:14:25-07:00</attribute>
+<attribute name="Name" >Update DEVONthink record</attribute>
+<attribute name="SelectionCount" >42</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >on run argv
+  tell application id &quot;DNtp&quot;
+    set theRecord to get record with uuid  &quot;^value($SourceURL.replace(&quot;x-devonthink-item://&quot;, &quot;&quot;))^&quot;
+    set name of theRecord to &quot;^value($Name.replace(&apos;\&quot;&apos;, &apos;\\~~TINDER_WUT~~\&quot;&apos;).replace(&apos;~~TINDER_WUT~~&apos;, &apos;&apos;))^&quot;
+    set source of theRecord to &quot;^value($MyString)^&quot;
+    set URL of theRecord to &quot;^value($URL)^&quot;
+  end tell
+end run</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6HAgAAKwAAAAEAAAB/AgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMzQ4XGNvY29hc3VicnRmMTcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBbmRhbGVNb25vO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQpccGFyZFx0eDU2MFx0eDExMjBcdHgxNjgwXHR4MjI0MFx0eDI4MDBcdHgzMzYwXHR4MzkyMFx0eDQ0ODBcdHg1MDQwXHR4NTYwMFx0eDYxNjBcdHg2NzIwXHJpNDAwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzMiBcY2YwIG9uIHJ1biBhcmd2XAogIHRlbGwgYXBwbGljYXRpb24gaWQgIkROdHAiXAogICAgc2V0IHRoZVJlY29yZCB0byBnZXQgcmVjb3JkIHdpdGggdXVpZCAgIl52YWx1ZSgkU291cmNlVVJMLnJlcGxhY2UoIngtZGV2b250aGluay1pdGVtOi8vIiwgIiIpKV4iXAogICAgc2V0IG5hbWUgb2YgdGhlUmVjb3JkIHRvICJedmFsdWUoJE5hbWUucmVwbGFjZSgnXFwiJywgJ1xcXFx+flRJTkRFUl9XVVR+flxcIicpLnJlcGxhY2UoJ35+VElOREVSX1dVVH5+JywgJycpKV4iXAogICAgc2V0IHNvdXJjZSBvZiB0aGVSZWNvcmQgdG8gIl52YWx1ZSgkTXlTdHJpbmcpXiJcCiAgICBzZXQgVVJMIG9mIHRoZVJlY29yZCB0byAiXnZhbHVlKCRVUkwpXiJcCiAgZW5kIHRlbGxcCmVuZCBydW59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAARoFMWrYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+</item>
+<item ID="1514917964" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T11:32:41-07:00</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="Height" >4</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="MapScrollX" >6</attribute>
+<attribute name="Modified" >2018-01-02T11:32:41-07:00</attribute>
+<attribute name="Name" >Prototypes</attribute>
+<attribute name="OnAdd" >$IsPrototype=true</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Width" >10</attribute>
+<attribute name="Xpos" >14</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1514917965" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Badge" >tools</attribute>
+<attribute name="Color" >lighter black</attribute>
+<attribute name="Created" >2018-01-02T11:32:41-07:00</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLFirstParagraphEnd" ></attribute>
+<attribute name="HTMLFirstParagraphStart" ></attribute>
+<attribute name="HTMLIndentedParagraphEnd" ></attribute>
+<attribute name="HTMLIndentedParagraphStart" ></attribute>
+<attribute name="HTMLParagraphEnd" ></attribute>
+<attribute name="HTMLParagraphStart" ></attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="IsTemplate" >true</attribute>
+<attribute name="Modified" >2018-01-02T11:32:41-07:00</attribute>
+<attribute name="Name" >HTML Template</attribute>
+<attribute name="NoSpelling" >true</attribute>
+<attribute name="OnAdd" >$Prototype=&quot;HTML Template&quot;;$IsTemplate=true;</attribute>
+<attribute name="ParagraphSpacing" >0</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="SmartQuotes" >false</attribute>
+<attribute name="Tabs" >0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;</attribute>
+<attribute name="TextFont" >Andale Mono</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2</attribute>
+<text >&lt;!--  Tinderbox: ^title --&gt;
+
+</text>
+</item>
+<item ID="1514918447" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Badge" >design</attribute>
+<attribute name="Color" >lightest black</attribute>
+<attribute name="Created" >2018-01-02T11:40:46-07:00</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLFirstParagraphEnd" ></attribute>
+<attribute name="HTMLFirstParagraphStart" ></attribute>
+<attribute name="HTMLIndentedParagraphEnd" ></attribute>
+<attribute name="HTMLIndentedParagraphStart" ></attribute>
+<attribute name="HTMLParagraphEnd" ></attribute>
+<attribute name="HTMLParagraphStart" ></attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Modified" >2018-01-02T11:40:46-07:00</attribute>
+<attribute name="Name" >Code</attribute>
+<attribute name="NoSpelling" >true</attribute>
+<attribute name="ParagraphSpacing" >0</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="SmartQuotes" >false</attribute>
+<attribute name="Tabs" >0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;</attribute>
+<attribute name="TextFont" >AndaleMono</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >5.5</attribute>
+</item>
+<item ID="1514962241" Creator="Pat Maddox" >
+<attribute name="Associates" ></attribute>
+<attribute name="Created" >2018-01-02T23:50:40-07:00</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="IsComposite" >false</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Modified" >2018-01-02T23:50:40-07:00</attribute>
+<attribute name="Name" >p_Embeds</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >6</attribute>
+<attribute name="Ypos" >2</attribute>
+</item>
+</item>
+</item>
+<links >
+<link name="prototype" sourceid="1514917965" sourcecreator="Pat Maddox" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917967" destcreator="Pat Maddox" color="normal"  />
+<link name="prototype" sourceid="1514917965" sourcecreator="Pat Maddox" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514921408" destcreator="Pat Maddox" color="normal"  />
+<link name="prototype" sourceid="1514917965" sourcecreator="Pat Maddox" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514923262" destcreator="Pat Maddox" color="normal"  />
+<link name="prototype" sourceid="1514917965" sourcecreator="Pat Maddox" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514923263" destcreator="Pat Maddox" color="normal"  />
+<link name="prototype" sourceid="1514918447" sourcecreator="Pat Maddox" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514926388" destcreator="Pat Maddox" color="normal"  />
+<link name="*untitled" sourceid="1514938340" sourcecreator="Pat Maddox" sstart="216" slen="13" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917940" destcreator="Pat Maddox" color="normal" URL="http://acrobatfaq.com/atbref7/index/MiscUserInterfaceAspects/Built-inexportTemplates.html"  />
+<link name="*untitled" sourceid="1514917951" sourcecreator="Pat Maddox" sstart="262" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917940" destcreator="Pat Maddox" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="1514917951" sourcecreator="Pat Maddox" sstart="425" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917940" destcreator="Pat Maddox" color="normal" URL="http://www.devontechnologies.com/products/devonthink/devonthink-to-go.html"  />
+<link name="*untitled" sourceid="1514917951" sourcecreator="Pat Maddox" sstart="579" slen="10" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917940" destcreator="Pat Maddox" color="normal" URL="http://www.devontechnologies.com/products/devonthink/overview.html"  />
+<link name="*untitled" sourceid="1514917951" sourcecreator="Pat Maddox" sstart="819" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917940" destcreator="Pat Maddox" color="normal" URL="http://www.sonnysoftware.com"  />
+<link name="*untitled" sourceid="1514954874" sourcecreator="Pat Maddox" sstart="62" slen="4" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917940" destcreator="Pat Maddox" color="normal" URL="http://wiki.c2.com/?WelcomeVisitors"  />
+<link name="prototype" sourceid="1514917965" sourcecreator="Pat Maddox" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514961642" destcreator="Pat Maddox" color="normal"  />
+<link name="prototype" sourceid="1514917965" sourcecreator="Pat Maddox" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514962425" destcreator="Pat Maddox" color="normal"  />
+<link name="*untitled" sourceid="1514963961" sourcecreator="Pat Maddox" sstart="12" slen="6" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917940" destcreator="Pat Maddox" color="normal" URL="http://acrobatfaq.com/atbref7/index/ActionsRules/Operators/FullOperatorList/findquery.html"  />
+<link name="*untitled" sourceid="1514917951" sourcecreator="Pat Maddox" sstart="168" slen="25" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917940" destcreator="Pat Maddox" color="normal" URL="http://forum.eastgate.com/t/publish-from-tinderbox-to-devonthink/1123"  />
+<link name="*untitled" sourceid="1514991210" sourcecreator="Pat Maddox" sstart="119" slen="17" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917940" destcreator="Pat Maddox" color="normal" URL="http://acrobatfaq.com/atbref7/index/ExportCodes/ExportCodes-FullListing/includeitemgrouptemplate.html"  />
+<link name="*untitled" sourceid="1514991210" sourcecreator="Pat Maddox" sstart="151" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514917940" destcreator="Pat Maddox" color="normal" URL="http://acrobatfaq.com/atbref7/index/ExportCodes/ExportCodes-FullListing/linkToitemdatacssclass.html"  />
+</links>
+<macros >
+</macros>
+<preferences >
+<Creator > Pat Maddox</Creator>
+<ToolbarVisible > 1</ToolbarVisible>
+<OpenTextImmediately > 0</OpenTextImmediately>
+<Tinderbox5Wizard > 1</Tinderbox5Wizard>
+<DynamicSpelling > 1</DynamicSpelling>
+<AutoOpen > 1</AutoOpen>
+<AutomaticBackup > 1</AutomaticBackup>
+<ReopenLastDocument > 0</ReopenLastDocument>
+<Autosave > 0</Autosave>
+<KeepWindowsOpen > 1</KeepWindowsOpen>
+<LeftMargin > 2</LeftMargin>
+<RightMargin > -2</RightMargin>
+<ParagraphSpacing > 4</ParagraphSpacing>
+<TextFont > MercurySSm-Book</TextFont>
+<NewTextSize > 16</NewTextSize>
+<TextJust > 0</TextJust>
+<AlwaysShowTextLinks > 1</AlwaysShowTextLinks>
+<ShowWikiLinks > 1</ShowWikiLinks>
+<TextLinkFrames > 1</TextLinkFrames>
+<TextLinkColorString > #0066cc</TextLinkColorString>
+<TextBackgroundColorString > white</TextBackgroundColorString>
+<SmartQuotes > 1</SmartQuotes>
+<TextWindowWidth > 6</TextWindowWidth>
+<TextWindowHeight > 6</TextWindowHeight>
+<AutoIndentLists > 1</AutoIndentLists>
+<ShowTitle > 0</ShowTitle>
+<TitleFont > HelveticaNeue</TitleFont>
+<TitleSize > 2</TitleSize>
+<TitleJust > 2</TitleJust>
+<MapShowLinks > 1</MapShowLinks>
+<MapEnacted > 1</MapEnacted>
+<InPlaceEditing > 1</InPlaceEditing>
+<MapLabelSizeNew > 14</MapLabelSizeNew>
+<MapBackgroundColorString > #f2f2ed</MapBackgroundColorString>
+<MapBackgroundColorString2 > #f2f2ed</MapBackgroundColorString2>
+<OpaqueAdornments > 0</OpaqueAdornments>
+<MapBackgroundPattern > plain</MapBackgroundPattern>
+<PrototypeHighlightColorString > #cceecc</PrototypeHighlightColorString>
+<MapFont > IdealSansSSm-Book</MapFont>
+<DarkenOutlineColors > 1</DarkenOutlineColors>
+<BlackOutlineText > 0</BlackOutlineText>
+<UnderlineAliases > 0</UnderlineAliases>
+<AutomaticLinkDetection > 1</AutomaticLinkDetection>
+<HiddenTabBar > 0</HiddenTabBar>
+<TextPaneSelectorHidden > 0</TextPaneSelectorHidden>
+<OutlineLeading > 2</OutlineLeading>
+<InteriorScale > 1</InteriorScale>
+<InteriorScaleNew > 1.5</InteriorScaleNew>
+<ExpandMode > 1</ExpandMode>
+<AfterLinkingSelect > 1</AfterLinkingSelect>
+<ExportImageFormat > 1</ExportImageFormat>
+<ExportURL > http://</ExportURL>
+<ExportHTMLHelper > Safari</ExportHTMLHelper>
+<ExportHTMLExtension > 1</ExportHTMLExtension>
+<HTMLParagraphStyle > 1</HTMLParagraphStyle>
+<HTMLViewFont > HelveticaNeue</HTMLViewFont>
+<HTMLViewFontSize > 2</HTMLViewFontSize>
+<ExportTemplatePath > plain</ExportTemplatePath>
+<RoadmapWindowWidth > 0</RoadmapWindowWidth>
+<RoadmapWindowHeight > 0</RoadmapWindowHeight>
+<TextExportViewFont > HelveticaNeue</TextExportViewFont>
+<TextExportViewFontSize > 2</TextExportViewFontSize>
+<ExportTextTemplatePath > outline</ExportTextTemplatePath>
+<ExportTextHelper > TextEdit</ExportTextHelper>
+<AskToDelete > 2</AskToDelete>
+<DailyTip > 1</DailyTip>
+<WarnEditingDefault > 1</WarnEditingDefault>
+<WarnDuplicateName > 1</WarnDuplicateName>
+<RunScriptsAutomatically > 1</RunScriptsAutomatically>
+<Version > version 7.3.0</Version>
+<PreferencePane > 0</PreferencePane>
+<LastBadgeFamily > 1</LastBadgeFamily>
+<TipWindowX > 300</TipWindowX>
+<TipWindowY > 50</TipWindowY>
+<RegUserName > Pat Maddox</RegUserName>
+<RegUserOrg > </RegUserOrg>
+<CurrentAttributeClass > </CurrentAttributeClass>
+<CurrentAttribute > </CurrentAttribute>
+<FindCaseSensitive > 1</FindCaseSensitive>
+<ExportFolder > ~/Desktop</ExportFolder>
+<ReadOnly > 0</ReadOnly>
+<InfoWindowHeight > 0</InfoWindowHeight>
+<InfoWindowWidth > 0</InfoWindowWidth>
+<RecentFiles > </RecentFiles>
+<PingServer > http://rpc.weblogs.com/RPC2</PingServer>
+<PingMethod > weblogUpdates.ping</PingMethod>
+<PingTitle > your weblog name</PingTitle>
+<PingURL > weblog URL</PingURL>
+<PingTechnorati > 1</PingTechnorati>
+<PingWeblogsCom > 1</PingWeblogsCom>
+<PingGoogle > 1</PingGoogle>
+<PingFeedURL > </PingFeedURL>
+<WeblogServer > http://your_host/cgi-bin/mt/mt-xmlrpc.cgi</WeblogServer>
+<WeblogUser > </WeblogUser>
+<WeblogPassword > </WeblogPassword>
+<WeblogID > 1</WeblogID>
+<WeblogKind > 2</WeblogKind>
+<ToolbarKind > 0</ToolbarKind>
+<ReadingReminders > 0</ReadingReminders>
+<AllowViews > 1</AllowViews>
+<AutomaticAgentUpdate > 1</AutomaticAgentUpdate>
+<ToolbarX > 0</ToolbarX>
+<ToolbarY > 0</ToolbarY>
+<FindWindowX > 600</FindWindowX>
+<FindWindowY > 100</FindWindowY>
+<RenameWindowX > -1</RenameWindowX>
+<RenameWindowY > -1</RenameWindowY>
+<InspectorX > 1120</InspectorX>
+<InspectorY > 385</InspectorY>
+<EnterKeyAction > 0</EnterKeyAction>
+<UpdateViewShown > </UpdateViewShown>
+<TimelineScale > 1000</TimelineScale>
+<TimelineLabelSize > 0</TimelineLabelSize>
+<GetInfoPane > agent</GetInfoPane>
+<GetInfoCategory > </GetInfoCategory>
+<GetInfoSelection > </GetInfoSelection>
+<LastLinkName > *untitled</LastLinkName>
+<UsingGuides > 1</UsingGuides>
+<SystemAttributesCategory > </SystemAttributesCategory>
+<SystemAttributesSelection > </SystemAttributesSelection>
+<CheckMail > 0</CheckMail>
+<MailHost > </MailHost>
+<MailUser > </MailUser>
+<MailPassword > </MailPassword>
+<CheckSimplenote > 0</CheckSimplenote>
+<SimplenoteEmail > </SimplenoteEmail>
+<SimplenotePassword > </SimplenotePassword>
+<SimplenoteTag > </SimplenoteTag>
+<MapBackgroundColor > 0 0 0</MapBackgroundColor>
+<MapBackgroundColor2 > 0 0 0</MapBackgroundColor2>
+<TextColor > 0 0 0</TextColor>
+<TextBackgroundColor > 65535 65535 65535</TextBackgroundColor>
+<TextSize > 5</TextSize>
+<TitleBackgroundColor > 0 0 0</TitleBackgroundColor>
+<TitleForegroundColor > 65535 65535 65535</TitleForegroundColor>
+<ActiveLinkColor > 65535 0 0</ActiveLinkColor>
+<VisitedLinkColor > 26112 0 52224</VisitedLinkColor>
+<MagnifyFonts > 1</MagnifyFonts>
+<MagnifyPictures > 1</MagnifyPictures>
+<RememberWindowPositions > 1</RememberWindowPositions>
+<ExportHTMLCreator > 1</ExportHTMLCreator>
+<ExportTextCreator > 1</ExportTextCreator>
+<ShowSidebar > 1</ShowSidebar>
+<MapPrototypeColor > 52428 61166 52428</MapPrototypeColor>
+<TextLinkColor > 0 26112 52224</TextLinkColor>
+<MapLabelSize > 3</MapLabelSize>
+<LastVersionString > b292</LastVersionString>
+</preferences>
+<windows >
+<window bounds="Rect[ 417 0 1440 877]" ruler="0" >
+<tabs >
+<tab selected="1" viewType="1" usingCheckboxes="0" showColumns="0" columnString="" scale="32" ID="1514917940" scrollX="0" scrollY="0" selection="1514917951 " expanded="1514917951 1514938348 1514954874 1514991204 " textTab="0" attribute="" sortAttribute="" container="" query="" queryLabel="" action="" actionLabel="" bins="10" summaryAttribute="" summaryMethod="" splitRatio="0.505495" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100"  />
+</tabs>
+</window>
+</windows>
+<utilityWindows >
+<window bounds="Rect[ 34 244 1207 673]" ID="1514926388" >
+</window>
+<window bounds="Rect[ 41 20 1175 793]" ID="1514926388" >
+</window>
+</utilityWindows>
+<searches >
+</searches>
+</tinderbox>
